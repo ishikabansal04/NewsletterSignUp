@@ -1,0 +1,21 @@
+body{
+    background-image: url("../images/email.png");
+    background-size: cover;
+}
+
+#main-heading{
+    font-size: 3.5em;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+        
+    body{
+        background-image: url("../images/email.png");
+    }
+    
+    #main-heading{
+        font-size: 2em;
+        text-align: center;
+    }
+}
