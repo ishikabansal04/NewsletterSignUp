@@ -34,7 +34,7 @@ app.post("/", function(req, res){
     const url = "https://us5.api.mailchimp.com/3.0/lists/051a7486df";
     const options = {
         method: "POST",
-        auth: "Ishika:3975a6452349174977db5d36373319b6-us5"
+        auth: "Ishika:<API-KEY>"
     };
 
     const request = https.request(url, options, function(response){
